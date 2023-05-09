@@ -1,3 +1,5 @@
+<!-- Parent Component  -->
+
 <template>
   <footer>
     <FooterColumn header="Vinyl">
