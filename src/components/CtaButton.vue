@@ -1,12 +1,17 @@
-<!-- Create a propr for 'Listen on spotify' -->
+<!-- child components -->
+<!-- Create a prop for 'Listen on spotify' -->
 <template>
-  <b-button class="CTA" header="Listen On Spotify">Listen On Spotify</b-button>
+  <b-button class="CTA">{{ btnText }}</b-button>
 </template>
+<script>
+export default {
+  props: ["btnText"],
+};
+</script>
 
 <style>
-.CTA{
+.CTA {
   background-color: black;
   color: white;
-
 }
 </style>
