@@ -6,7 +6,6 @@
   </div>
 </template>
 <style>
-
 .logo {
   font-family: sans-serif;
   display: inline;

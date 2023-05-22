@@ -1,5 +1,5 @@
 <template>
-  <TheHeader></TheHeader>
+  <h1>Hello world</h1>
 </template>
 
 <script lang="ts">
@@ -10,5 +10,6 @@ import TheLogo from "~/components/TheLogo.vue";
 export default Vue.extend({
   name: "IndexPage",
   components: { TheLogo, NavBar },
+  layout: "Mylayouts",
 });
 </script>

@@ -1,7 +1,12 @@
 <!-- The Header, The Footer build it here -->
-<TheHeader></TheHeader>
-<!-- <TheFooter></TheFooter> -->
+<template>
+  <div>
+    <TheHeader></TheHeader>
+    <nuxt></nuxt>
+    <!-- <TheFooter></TheFooter> -->
+  </div>
+</template>
 
-<style>
+<script></script>
 
-</style>
+<style></style>
